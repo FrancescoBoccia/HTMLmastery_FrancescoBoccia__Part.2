@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --font-family: "Jost", sans-serif;
+  --color-second: #979dc3;
+
+  --body-bg-color: #e4e6f5;
+  --border-color: #e5e4e9;
+  --theme-bg-color: #fff;
+  --body-color: #1b1f31;
+  --main-color: #7a7e9d;
+  --main-light-color: #a1a4b9;
+  --title-color: #979dc3;
+  --body-font: "Jost", sans-serif;
+  --button-bg-color: #eaeefc;
+  --button-color: #4d76fd;
+  --unselected-mail: #f1f2f7;
+  --calendar-border-color: #cbcfe0;
+  --main-container-bg: #f0f0f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  list-style: none;
+}
+
+body {
+  background-color: var(--theme-bg-color);
+}
+
+/* CONTAINER ELEMENT */
+
+.container-page {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  border-right: 5px solid black;
+}
+
+.container-title {
+  font-weight: bold;
+  font-size: 19px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid var(--unselected-mail);
+  margin-bottom: 20px;
+  color: var(--color-second);
+}
+
+.user-profile {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+/* USER INFORMATION */
+
+.image-container {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.user-profile-image {
+  width: auto;
+  height: 100%;
+  margin-left: -13px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.user-email {
+  text-align: center;
+  color: var(--color-second);
+}
+
+/* USER MENU BAR */
+
+.user-menu {
+  width: 100%;
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.menu > li > img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: var(--unselected-mail);
+}
+
+.menu > li > span {
+  position: relative;
+  background-color: #ff537b;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 500;
+  top: -60px;
+  left: 39px;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* PROGRESS STATUS BAR */
+
+.progress-status {
+  text-align: right;
+  color: var(--main-color);
+  font-weight: bolder;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+.progress-bar {
+  height: 8px;
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: #e7e7ef;
+  margin-bottom: 15px;
+}
+.progression {
+  background-color: var(--button-color);
+  width: 35%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* TASK MENU */
+
+.task-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid var(--unselected-mail);
+  margin-bottom: 20px;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-number {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.task-action {
+  color: var(--main-color);
+  font-weight: bold;
+  text-align: center;
+}
+
+.task-name {
+  color: var(--color-second);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* PROJECTS LIST */
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.projects-list {
+  margin-bottom: 12vh;
+}
+.project-department {
+  position: relative;
+  vertical-align: middle;
+  padding: 0 30px;
+  color: var(--main-color);
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 14px;
+}
+
+.project-department::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.project-department:nth-child(1)::before {
+  border: 3px solid #b36dfb;
+  left: 0;
+  top: 2px;
+}
+
+.project-department:nth-child(2)::before {
+  border: 3px solid #625be8;
+  left: 0;
+  top: 2px;
+}
+.project-department:nth-child(3)::before {
+  border: 3px solid #fec267;
+  left: 0;
+  top: 2px;
+}
+.project-department:nth-child(4)::before {
+  border: 3px solid #fc6679;
+  left: 0;
+  top: 2px;
+}
+
+/* SECOND CONTAINER  */
