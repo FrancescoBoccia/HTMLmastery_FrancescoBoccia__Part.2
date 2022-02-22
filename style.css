@@ -40,7 +40,20 @@ body {
 .container-1 {
   display: flex;
   flex-direction: column;
-  border-right: 5px solid black;
+  overflow-y: scroll;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border: 3px solid var(--unselected-mail);
+  border-radius: 5px;
 }
 
 .container-title {
@@ -232,3 +245,7 @@ h3 {
 }
 
 /* SECOND CONTAINER  */
+
+.container-2 {
+  margin: 40px;
+}
