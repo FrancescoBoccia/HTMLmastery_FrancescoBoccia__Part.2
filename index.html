@@ -104,7 +104,7 @@
           <!-- PROJECTS LIST  -->
 
           <div class="projects">
-            <h3>Projects</h3>
+            <h3 class="h3-project">Projects</h3>
             <ul class="projects-list">
               <li class="project-department">Marketing</li>
               <li class="project-department">Design</li>
@@ -141,51 +141,208 @@
         </div>
 
         <!-- USER INTERFACE AND MENU  -->
-        
+
         <div class="user-interface">
           <div class="user-image-container-2">
             <img
-              class="user-profile-image"
+              class="user-image"
               src="images/bella 1 faccia.jpg"
               alt="user-image"
             />
+            <h3 class="container2-userName">Francesco Boccia</h3>
           </div>
-          <h4 class="container2-userName">Francesco Boccia</h4>
           <ul class="user-interface-menu">
-            <li class="delete"><i></i></li>
-            <li class="user-icon"><i></i></li>
-            <li class="user-tag"><i></i></li>
-            <li class="user-checkbox"><i></i></li>
-            <li class="user-save"><i></i></li>
+            <li class="delete">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-trash-2"
+              >
+                <path
+                  d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2M10 11v6M14 11v6"
+                ></path>
+              </svg>
+            </li>
+            <li class="user-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-user"
+              >
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </li>
+            <li class="user-tag">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-tag"
+              >
+                <path
+                  d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82zM7 7h.01"
+                ></path>
+              </svg>
+            </li>
+            <li class="user-checkbox">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-check-square"
+              >
+                <path d="M9 11l3 3L22 4"></path>
+                <path
+                  d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"
+                ></path>
+              </svg>
+            </li>
+            <li class="user-save">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-paperclip"
+              >
+                <path
+                  d="M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.19-9.19a4 4 0 015.66 5.66l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48"
+                ></path>
+              </svg>
+            </li>
           </ul>
         </div>
+
+        <!-- ARTICLE SECTION TITLE  -->
+
         <div class="task-article">
-          <h3 class="task-title">Write an article about design</h3>
-          <span class="date">12 Mar, 2019</span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            accumsan commodo lectus gravida dictum. Aliquam a dui eu arcu
-            hendrerit porta sed in velit. Fusce eu semper magna. Aenean porta
-            facilisis neque, ac dignissim magna vestibulum eu. Etiam id ligula
-            eget neque placerat ultricies in sed neque. Nam vitae rutrum est.
-            Etiam non condimentum ante, eu consequat orci. Aliquam a dui eu arcu
-            hendrerit porta sed in velit. Fusce eu semper magna.
-          </p>
-          <ul class="user-interaction">
-            <li>
-              <span>Antonio Esposito</span>assigned to Francesco Boccia. 25 Nov,
-              2019
-            </li>
-            <li>
-              <span>Antonio Esposito</span>added to Marketing. 18 Feb, 2019
-            </li>
-            <li><span>Antonio Esposito</span>created task. 18 Feb, 2019</li>
-          </ul>
+          <div class="article-header">
+            <input class="checkbox" type="checkbox" checked />
+            <h3 class="task-title">Write an article about design</h3>
+          </div>
+
+          <!-- ARTICLE SECTION CONTENT -->
+
+          <div class="task-section-article">
+            <div class="date-title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-clock"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+              <span class="date">12 Mar, 2019</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              accumsan commodo lectus gravida dictum. Aliquam a dui eu arcu
+              hendrerit porta sed in velit. Fusce eu semper magna. Aenean porta
+              facilisis neque, ac dignissim magna vestibulum eu. Etiam id ligula
+              eget neque placerat ultricies in sed neque. Nam vitae rutrum est.
+              Etiam non condimentum ante, eu consequat orci. Aliquam a dui eu
+              arcu hendrerit porta sed in velit. Fusce eu semper magna.
+            </p>
+            <div class="line"></div>
+            <ul class="user-interaction">
+              <li>
+                <span class="bold-span">Antonio Esposito </span>assigned to
+                Francesco Boccia. 25 Nov, 2019
+              </li>
+              <li>
+                <span class="bold-span">Antonio Esposito </span>added to
+                Marketing. 18 Feb, 2019
+              </li>
+              <li class="last-list">
+                <span class="bold-span">Antonio Esposito </span>created task. 18
+                Feb, 2019
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="comment-section">
-          <input placeholder="Write a comment..." type="text" />
-          <i></i>
-          <i></i>
+
+        <!-- MAIL TEXT AREA  -->
+
+        <div class="mail-section">
+          <input
+            class="mail-input"
+            placeholder="Write a comment..."
+            type="text"
+          />
+          <div class="mail-icons">
+            <svg
+              class="mail-icon noColor"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-paperclip"
+            >
+              <path
+                d="M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.19-9.19a4 4 0 015.66 5.66l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48"
+              ></path>
+            </svg>
+            <svg
+              class="mail-icon colored"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-send"
+            >
+              <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"></path>
+            </svg>
+          </div>
         </div>
       </div>
     </div>
