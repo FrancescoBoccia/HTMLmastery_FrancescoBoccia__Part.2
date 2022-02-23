@@ -6,4 +6,4 @@ Another mock-up to improve my skills
 
 The final result
 
-![](images/HTML%and%CSS%master%pt.2.png)
+![](images/HTML%20and%20CSS%20master%20pt.2.png)
