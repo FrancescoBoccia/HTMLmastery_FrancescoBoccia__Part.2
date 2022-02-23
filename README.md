@@ -2,4 +2,4 @@
 
 Another mock-up to improve my skills
 
-!
+![](images/JustForFunProject__HTMLt&CSS.PNG)
